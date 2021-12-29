@@ -1,0 +1,60 @@
+/* Google Web Font */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-height: 800vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px 1fr 250px;
+      grid-template-columns: 250px 1fr 250px;
+  -ms-grid-rows: 100px auto 1fr 100px;
+      grid-template-rows: 100px auto 1fr 100px;
+      grid-template-areas: 'header header header' 'menu main main' 'menu main main' 'footer footer footer';
+}
+
+.container > div {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  justify-items: stretch;
+}
+
+.header {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+}
+
+.footer {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  height: auto;
+}
+
+.main {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 / 4;
+  height: auto;
+}
+
+.menu {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4;
+  height: auto;
+}
+
+.item1 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+}
+/*# sourceMappingURL=LayOutStyle.css.map */

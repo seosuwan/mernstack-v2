@@ -1,0 +1,30 @@
+.review-container {
+    display: grid;
+    grid-template-columns: 500px minmax( 1fr);
+    grid-template-rows:  1fr ;
+    justify-items: center;
+    text-shadow: gray;
+  }
+.reviewText{
+  font-weight: bolder;
+  font-size: large;
+}
+
+@media(max-width: 1560px){
+.review-box{
+  margin-left: -66px;
+  width: 90vw;
+}
+}
+@media(max-width: 1024px){
+  .review-box{
+    margin-left: -66px;
+    width: 70vw;
+  }
+  }
+  @media(max-width: 768px){
+    .review-box{
+      margin-left: -66px;
+      width: 60vw;
+    }
+    }

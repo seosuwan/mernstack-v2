@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.544ed075.chunk.css",
+    "main.js": "/static/js/main.3a78b55b.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.9c24a0a4.js",
+    "static/css/2.cb79d47f.chunk.css": "/static/css/2.cb79d47f.chunk.css",
+    "static/js/2.276cb388.chunk.js": "/static/js/2.276cb388.chunk.js",
+    "static/js/3.3e164642.chunk.js": "/static/js/3.3e164642.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.276cb388.chunk.js.LICENSE.txt": "/static/js/2.276cb388.chunk.js.LICENSE.txt",
+    "static/media/1.9d83bd5b.png": "/static/media/1.9d83bd5b.png",
+    "static/media/2.d4f878a9.png": "/static/media/2.d4f878a9.png",
+    "static/media/3.8a68d161.png": "/static/media/3.8a68d161.png",
+    "static/media/4.64c94aab.png": "/static/media/4.64c94aab.png",
+    "static/media/5.86fffe11.png": "/static/media/5.86fffe11.png",
+    "static/media/style.scss": "/static/media/fontawesome-webfont.bfcf94e0.ttf",
+    "static/media/font.scss": "/static/media/Snaps-Taste-Christmas.c8f48860.woff",
+    "static/media/admin.png": "/static/media/admin.6c41e34d.png",
+    "static/media/chatbot (1).1c95645b.png": "/static/media/chatbot (1).1c95645b.png",
+    "static/media/chatbot.png": "/static/media/chatbot.59117dcb.png",
+    "static/media/edit.png": "/static/media/edit.e0d61cb7.png",
+    "static/media/feedback.png": "/static/media/feedback.3b22be08.png",
+    "static/media/fingerl.png": "/static/media/fingerl.2cf806fa.png",
+    "static/media/fingerr.png": "/static/media/fingerr.202c8598.png",
+    "static/media/paper-pencil.png": "/static/media/paper-pencil.b1842153.png",
+    "static/media/pencil.png": "/static/media/pencil.16df2221.png",
+    "static/media/plan.gif": "/static/media/plan.0d7a6ec9.gif",
+    "static/media/snoopy.png": "/static/media/snoopy.974f4726.png",
+    "static/media/sunny.c3780121.png": "/static/media/sunny.c3780121.png",
+    "static/media/today.png": "/static/media/today.e108b3b4.png",
+    "static/media/상어.gif": "/static/media/상어.f40064e7.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c24a0a4.js",
+    "static/css/2.cb79d47f.chunk.css",
+    "static/js/2.276cb388.chunk.js",
+    "static/css/main.544ed075.chunk.css",
+    "static/js/main.3a78b55b.chunk.js"
+  ]
+}

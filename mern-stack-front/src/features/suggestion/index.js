@@ -1,0 +1,1 @@
+export {default as About} from 'features/suggestion/containers/About'

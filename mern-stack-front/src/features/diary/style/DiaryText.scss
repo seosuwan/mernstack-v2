@@ -1,0 +1,137 @@
+:root {
+    --bg-color: #fff;
+    --bg-transparent: rgba(255, 255, 255, 0);
+    --border-color: wheat;
+}
+
+.manuscript-all {
+    width: 100%;
+    margin: auto;
+    
+}
+.diary-pencil{
+    margin-left: 1vw;
+    width: 2vw;
+    cursor: pointer;
+    z-index: 9999;
+    display: block;
+}
+.manuscript {
+    width: 100%;
+    margin: auto;
+    font-size: 3vw;
+    line-height: 3vh;
+    padding: 8px 0;
+    border: 2px solid var(--border-color);
+    background: -webkit-linear-gradient(
+            top,
+            var(--bg-transparent) 0%,
+            var(--bg-transparent) 1px,
+            var(--bg-color) 1px,
+            var(--bg-color) 8px,
+            var(--bg-transparent) 8px,
+            var(--bg-transparent) 100%
+        ),
+        -webkit-linear-gradient(
+            top,
+            var(--bg-transparent) 0%,
+            var(--bg-transparent) 1px,
+            var(--bg-color) 1px,
+            var(--bg-color) 8px,
+            var(--bg-transparent) 8px,
+            var(--bg-transparent) 100%
+        ),
+        -webkit-linear-gradient(
+            left,
+            var(--border-color) 0%,
+            var(--border-color) 1px,
+            var(--bg-transparent) 1px,
+            var(--bg-transparent) 100%
+        ),
+        -webkit-linear-gradient(
+            top,
+            var(--border-color) 0%,
+            var(--border-color) 1px,
+            var(--bg-transparent) 1px,
+            var(--bg-transparent) 100%
+        ),
+        -webkit-linear-gradient(
+            top,
+            var(--border-color) 0%,
+            var(--border-color) 1px,
+            var(--bg-transparent) 1px,
+            var(--bg-transparent) 100%
+        ),
+        var(--bg-color);
+    background: linear-gradient(
+            to bottom,
+            var(--bg-transparent) 0%,
+            var(--bg-transparent) 1px,
+            var(--bg-color) 1px,
+            var(--bg-color) 8px,
+            var(--bg-transparent) 8px,
+            var(--bg-transparent) 100%
+        ),
+        linear-gradient(
+            to bottom,
+            var(--bg-transparent) 0%,
+            var(--bg-transparent) 1px,
+            var(--bg-color) 1px,
+            var(--bg-color) 8px,
+            var(--bg-transparent) 8px,
+            var(--bg-transparent) 100%
+        ),
+        linear-gradient(
+            to right,
+            var(--border-color) 0%,
+            var(--border-color) 1px,
+            var(--bg-transparent) 1px,
+            var(--bg-transparent) 100%
+        ),
+        linear-gradient(
+            to bottom,
+            var(--border-color) 0%,
+            var(--border-color) 1px,
+            var(--bg-transparent) 1px,
+            var(--bg-transparent) 100%
+        ),
+        linear-gradient(
+            to bottom,
+            var(--border-color) 0%,
+            var(--border-color) 1px,
+            var(--bg-transparent) 1px,
+            var(--bg-transparent) 100%
+        ),
+        var(--bg-color);
+    background-size: 24px 32px;
+    background-position: 0 -1px, 0 0, -1px 0, 0 8px, 0px -1px;
+}
+
+.manuscript > p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px -1px 8px 0;
+    font-size: 1vw;
+    line-height: 1vw;
+    font-family: 'UhBeeRami';
+    font-weight: bold;
+    
+    
+}
+
+.manuscript > p > span {
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+    height: 23px;
+    flex-shrink: 0;
+    margin-top: 8px;
+    
+}
+.manuscript > :last-child {
+    margin-bottom: 0;
+}
+
+.manuscript > *:not(:last-child) {
+    margin-bottom: 40px;
+}

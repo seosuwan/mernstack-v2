@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap");
+#foo {
+  font-style: 'Montserrat', sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+div ul {
+  list-style: none;
+}
+
+@media (max-width: 1440px) {
+  #foo {
+    font-size: 7px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

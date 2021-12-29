@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import url(c:\Users\seosuwan\Desktop\새 폴더\mern-stack-front\src\features\suggestion\style\icons.min.css);
+/*------- 11. About style ------ */
+.welcome-content {
+  background-color: #f9f7e8;
+  color: #62bfad;
+}
+
+.welcome-content h5 {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+.welcome-content h1 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin: 8px 0 30px;
+  position: relative;
+  display: inline-block;
+  padding: 0 0 23px;
+  line-height: 1;
+}
+
+.welcome-content h1:before {
+  position: absolute;
+  background-color: #070508;
+  height: 3px;
+  width: 70px;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.welcome-content p {
+  font-size: 16px;
+  color: #4b4b4b;
+  line-height: 30px;
+  width: 66%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .welcome-content p {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .welcome-content p {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .welcome-content p {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+.team-area {
+  font-family: "UhBeeRami";
+  text-shadow: 0 0 black;
+  width: 53vh;
+  text-align: center;
+  padding: 2%;
+  margin-left: -15vh;
+  margin-top: -95vh;
+}
+
+.single-count .count-icon i {
+  font-size: 50px;
+  line-height: 1;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-count .count-icon i {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single-count .count-icon i {
+    font-size: 45px;
+  }
+}
+
+.single-count h2 > span {
+  color: #328b3e;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 25px 0 12px;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-count h2 > span {
+    margin: 10px 0 8px;
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single-count h2 > span {
+    margin: 6px 0 8px;
+    font-size: 35px;
+  }
+}
+
+.single-count span {
+  color: #333;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.team-wrapper {
+  background-color: #f9f7e8;
+}
+
+.team-wrapper .team-img {
+  position: relative;
+}
+
+.team-wrapper .team-img img {
+  width: 100%;
+}
+
+.team-wrapper .team-img .team-action {
+  background: #fff none repeat scroll 0 0;
+  left: 0;
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  width: 100%;
+  z-index: 5;
+}
+
+.team-wrapper .team-img .team-action a {
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  width: 30px;
+  margin: 0 3px;
+}
+
+.team-wrapper .team-img .team-action a.check {
+  border: 1px solid #3b5998;
+  background-color: #3b5998;
+}
+
+.team-wrapper .team-img .team-action a.check:hover {
+  background-color: transparent;
+  color: #3b5998;
+}
+
+.team-wrapper .team-img .team-action a.remove {
+  border: 1px solid #cf2727;
+  background-color: #cf2727;
+}
+
+.team-wrapper .team-img .team-action a.remove:hover {
+  background-color: transparent;
+  color: #cf2727;
+}
+
+.team-wrapper .team-content {
+  padding: 70px 9px 43px;
+  color: black;
+}
+
+.team-wrapper .team-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 11px 0 3px;
+  text-transform: capitalize;
+}
+
+.team-wrapper .team-content span {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.team-wrapper:hover .team-action {
+  top: 146%;
+  opacity: 1;
+  width: 380px;
+}
+
+.single-mission h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0 0 20px;
+  text-transform: capitalize;
+  line-height: 22px;
+  color: #333;
+}
+
+@media only screen and (max-width: 767px) {
+  .single-mission h3 {
+    margin: 0 0 10px;
+  }
+}
+
+.single-mission p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .about-brand-logo.pb-100 {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 2560px) {
+  .team-area {
+    width: 53vh;
+    margin-left: 5vh;
+    margin-top: -57vh;
+  }
+  .team-wrapper:hover .team-action {
+    width: 621px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .team-area {
+    width: 41vh;
+    margin-left: -3vh;
+    margin-top: -75vh;
+  }
+  .team-wrapper:hover .team-action {
+    width: 39vh;
+  }
+}
+
+@media (max-width: 1080px) {
+  .team-area {
+    width: 33vh;
+    margin-left: -11vh;
+    margin-top: -81vh;
+  }
+  .team-wrapper:hover .team-action {
+    width: 31vh;
+  }
+}
+
+@media (width: 1440px) {
+  .team-area {
+    width: 46vh;
+    margin-left: -9vh;
+    margin-top: -80vh;
+  }
+  .team-wrapper:hover .team-action {
+    width: 44vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .team-area {
+    width: 37vh;
+    margin-left: -11vh;
+    margin-top: -83vh;
+  }
+  .team-wrapper:hover .team-action {
+    width: 295px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

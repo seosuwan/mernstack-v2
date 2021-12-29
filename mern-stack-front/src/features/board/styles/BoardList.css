@@ -1,0 +1,9 @@
+.board {
+  cursor: pointer;
+  border-bottom: 1px solid #dddddd;
+}
+
+.board:hover {
+  background: #eeeeee;
+}
+/*# sourceMappingURL=BoardList.css.map */

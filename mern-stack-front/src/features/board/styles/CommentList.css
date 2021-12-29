@@ -1,0 +1,9 @@
+.comment {
+  border-bottom: 1px solid #dddddd;
+  padding: 0.4rem;
+}
+
+.comment .date {
+  font-size: 0.7rem;
+}
+/*# sourceMappingURL=CommentList.css.map */

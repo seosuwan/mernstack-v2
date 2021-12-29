@@ -1,0 +1,73 @@
+.sg{
+    text-align: center;
+
+}
+.hm{
+    text-align: left;
+    display: block;
+}
+
+
+
+
+// 다른 버튼 css
+.btn, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn10{
+    padding: 15px 100px;
+    margin:10px 4px;
+    color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    
+  }
+ /*=======Button 6============= */
+.btn6{
+    border:1px solid transparent; 
+     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  }
+  
+  .btn6::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    z-index:-1;
+    width: 0%;
+    height:1px;
+    background: #6098FF;
+    box-shadow: inset 0px 0px 0px #6098FF;
+    display: block;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+  }
+  
+  .btn6:hover::before {
+    width:100%;
+  }
+  
+  .btn6::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top:0px;
+    z-index:-1;
+    width: 0%;
+    height:1px;
+    background: #6098FF;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+  }
+  .btn6:hover::after {
+    width:100%;
+  }
+  .btn6:hover{
+    border-left:1px solid #6098FF;
+    border-right:1px solid #6098FF;
+  }
+  /* button7 */
+  
+  
